@@ -7,6 +7,14 @@ gem 'rails', '3.0.7'
 
 gem 'sqlite3'
 
+# annotate models
+gem 'annotate-models'
+# CodeRay - Coloring code
+gem 'coderay'
+# Redcarpet - Markdown
+gem 'redcarpet'
+gem 'jquery-rails'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

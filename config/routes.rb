@@ -1,4 +1,8 @@
 NicosKaralisBlog::Application.routes.draw do
+
+  match '/about' => 'info#about'
+
+  root :to => 'info#about'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

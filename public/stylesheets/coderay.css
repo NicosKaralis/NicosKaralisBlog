@@ -1,19 +1,79 @@
+/*** CODE BLOCKS ***/
+.code_block {
+  margin: 12px 0;
+}
+
+.code_header {
+  position: relative;
+  background-color: #E0E0E0;
+  font-size: 14px;
+  padding: 4px 7px;
+  border: solid 1px #B6B6B6;
+  border-bottom: none;
+
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-webkit-border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+
+.code_header .clippy {
+  position: absolute;
+  top: 4px;
+  right: 7px;
+}
+
+.clippy_label {
+  position: absolute;
+  right: 20px;
+  top: 1px;
+  text-align: right;
+  width: 200px;
+  font-size: 10px;
+  color: #555;
+}
+
+.CodeRay {
+  overflow: auto;
+  border: 1px solid #777;
+  border-top: none;
+  padding: 5px 7px;
+  font-size: 13px;
+  margin: 0;
+  line-height: 15px;
+}
+
+code {
+  border: solid 1px #CCC;
+  background-color: #EEE;
+  font-family: 'Menlo', 'Courier New', 'Terminal', monospace;
+  padding: 0 3px;
+}
+
+pre code {
+  display: block;
+  background-color: #EEE;
+  padding: 5px 7px;
+}
+
 .CodeRay {  
-  background-color: #232323;  
-  border: 1px solid black;  
+  background-color: #343434;  
+  border: 1px solid black;
+	border-top: none;
   font-family: 'Courier New', 'Terminal', monospace;  
   color: #E6E0DB;  
   padding: 3px 5px;  
   overflow: auto;  
-  font-size: 12px;  
-  margin: 12px 0;  
-}  
-.CodeRay {
-	border: 1px solid #3F464C;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	line-height: 18px;
+  font-size: 12px;
+
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
 }
 .CodeRay pre {  
   margin: 0px;  
